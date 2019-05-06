@@ -11,6 +11,11 @@ Inplementation the baseline method by 3D Convolutional Neural Network (3D-CNN) f
 
 ## Demo
 
+
+|epoch|train accuracy|test accuracy|
+----|----|----
+|100|0.662|0.602|
+
 ## VS. 
 
 ## Requirement
