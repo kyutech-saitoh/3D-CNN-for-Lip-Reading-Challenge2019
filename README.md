@@ -1,16 +1,17 @@
-# 第2回機械読唇チャレンジ（Lip Reading Challenge 2019）
-
-3D-CNN for Lip Reading Challenge 2019
+3D-CNN for Lip Reading Challenge 2019 (第2回機械読唇チャレンジ)
 ====
 
 Overview
 
 ## Description
 
-Inplementation the baseline method by 3D Convolutional Neural Network (3D-CNN) for Lip Reading Challenge 2019.
+Implementation the baseline method by 3D Convolutional Neural Network (3D-CNN) for Lip Reading Challenge 2019 (LRC2019).
+LRC2019 is a competition for lip reading technology organized by our research group.
 
 ## Demo
 
+- training data: 25 words x 54 speakers x 10 samples = 13,500 samples
+- test data: 25 words x 18 speakers x 10 samples = 4,500 samples
 
 |epoch|train accuracy|test accuracy|
 ----|----|----
