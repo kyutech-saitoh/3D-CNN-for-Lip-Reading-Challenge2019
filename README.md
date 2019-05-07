@@ -8,8 +8,7 @@ Overview
 Implementation the baseline method by 3D Convolutional Neural Network (3D-CNN) for Lip Reading Challenge 2019 (LRC2019).
 LRC2019 is a competition for lip reading technology organized by our research group.
 
-
-![demo](https://github.com/kyutech-saitoh/Challenge2019/s10_11_007.gif)
+![demo](https://raw.github.com/wiki/kyutech-saitoh/Challenge2019/s10_11_007.gif)
 
 ## Demo
 
