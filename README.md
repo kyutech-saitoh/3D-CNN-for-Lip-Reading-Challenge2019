@@ -32,12 +32,10 @@ opencv3, Keras, numpy, tqdm
 $ python 3DCNN_SSSD.py
 ~~~
 
-## Install
-
-## Contribution
-
-## Licence
-
-
 ## Author
 
+Takeshi Saitoh
+
+saitoh@ces.kyutech.ac.jp
+
+Kyushu Institute of Technology, Japan
