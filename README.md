@@ -1,12 +1,20 @@
-3D-CNN for Lip Reading Challenge 2019 (第2回機械読唇チャレンジ)
+3D-CNN for Lip Reading Challenge 2019
+
+(第2回機械読唇チャレンジ)
 ====
 
 Overview
 
 ## Description
 
-Implementation the baseline method by 3D Convolutional Neural Network (3D-CNN) for Lip Reading Challenge 2019 (LRC2019).
-LRC2019 is a competition for lip reading technology organized by our research group.
+Implementation the baseline method by 3D Convolutional Neural Network (3D-CNN) for Lip Reading Challenge 2019 (LR-Challenge2019).
+LR-Challenge2019 is a competition for lip reading technology organized by our research group.
+
+## Dataset
+
+The dataset of LR-Challenge2019 is SSSD, released by our research group, and can be found at [SSSD](http://www.slab.ces.kyutech.ac.jp/SSSD/). This dataset provides pairs of lower half face ROI (LF-ROI) images and 68 facial feature points, these are collected from 72 speakers using smart device. The speech contents is 25 Japanese words: 10 digit words and 15 greeting words.
+
+A sample of LF-ROI is shown below. This is a movie saying /a-ri-ga-to-u/ (thank you) in Japanese. The image size of LF-ROI is 300x300 [pixel]. The frame rate is approx. 30fps.
 
 ![demo](s010_011_007.gif)
 
@@ -19,13 +27,9 @@ LRC2019 is a competition for lip reading technology organized by our research gr
 ----|----|----
 |100|0.662|0.602|
 
-## VS. 
-
 ## Requirement
 
-Keras (with tensorflow as backend)
-python3
-opencv3, Keras, numpy, tqdm
+python, opencv, Keras, numpy, tqdm
 
 ## Usage
 ~~~
