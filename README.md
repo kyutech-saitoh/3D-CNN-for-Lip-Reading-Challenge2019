@@ -1,9 +1,6 @@
 3D-CNN for Lip Reading Challenge 2019
 
-(第2回機械読唇チャレンジ)
 ====
-
-Overview
 
 ## Description
 
@@ -44,9 +41,9 @@ The arthiceture of the baseline 3D-CNN is shown below. All LF-ROIs are resized f
 ## Experimental conditions and result
 
 - Input data: LF-ROI (32x32 [pixel])
-- Training data: 25 words x 54 speakers x 10 samples = 13,500 samples
-- Test data: 25 words x 18 speakers x 10 samples = 4,500 samples
-- Hyper parameters are defined in the code.
+- Training data: 25 words x 54 speakers x 10 samples = 13,500 samples. See training_LF-ROI.txt
+- Test data: 25 words x 18 speakers x 10 samples = 4,500 samples. See test_LF-ROI.txt
+- All hyper parameters are defined in the code. See 3DCNN_SSSD.py.
 
 |epoch|train accuracy|test accuracy|
 ----|----|----
