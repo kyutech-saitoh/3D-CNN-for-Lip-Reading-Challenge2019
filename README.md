@@ -1,10 +1,9 @@
 3D-CNN for Lip Reading Challenge 2019
-
-====
+===
 
 ## Description
 
-Implementation the baseline method by 3D Convolutional Neural Network (3D-CNN) for Lip Reading Challenge 2019 (LR-Challenge2019).
+Implementation a baseline method by 3D Convolutional Neural Network (3D-CNN) for Lip Reading Challenge 2019 (LR-Challenge2019).
 LR-Challenge2019 is a competition for lip reading technology organized by our research group.
 
 ## Dataset
@@ -40,18 +39,23 @@ The arthiceture of the baseline 3D-CNN is shown below. All LF-ROIs are resized f
 
 ## Experimental conditions and result
 
+At first, download all LF-ROIs of SSSD.
+
 - Input data: LF-ROI (32x32 [pixel])
-- Training data: 25 words x 54 speakers x 10 samples = 13,500 samples. See training_LF-ROI.txt
-- Test data: 25 words x 18 speakers x 10 samples = 4,500 samples. See test_LF-ROI.txt
-- All hyper parameters are defined in the code. See 3DCNN_SSSD.py.
+- Training data: 25 words x 54 speakers x 10 samples = 13,500 samples. See **training_LF-ROI.txt**
+- Test data: 25 words x 18 speakers x 10 samples = 4,500 samples. See **test_LF-ROI.txt**
+- All hyperparameters are defined in the code. See **3DCNN_SSSD.py**
 
 |epoch|train accuracy|test accuracy|
 ----|----|----
-|100|0.662|0.602|
+|100|0.643|0.566|
+
+![loss](graph_loss.png)
+![accuracy](graph_accuracy.png)
 
 ## Requirement
 
-python, opencv, Keras, numpy, tqdm
+python, opencv, tensorflow, Keras, numpy, tqdm
 
 ## Usage
 ~~~
@@ -60,8 +64,4 @@ $ python 3DCNN_SSSD.py
 
 ## Author
 
-Takeshi Saitoh
-
-saitoh@ces.kyutech.ac.jp
-
-Kyushu Institute of Technology, Japan
+Takeshi Saitoh (saitoh@ces.kyutech.ac.jp), Kyushu Institute of Technology, Japan
