@@ -58,9 +58,32 @@ At first, download all LF-ROIs of SSSD.
 python, opencv, tensorflow, Keras, numpy, tqdm
 
 ## Usage
+
+Prepare the following environment.
+~~~
+.
+├── 3DCNN_SSSD.py
+├── Challenge2019/
+├── LFROI/
+│   ├── s01_01_001/
+│   │   ├── 00001.jpg
+:   :   :
+│   │   └── 00058.jpg
+:   :
+│   └── s75_25_010/
+│       ├── 00001.jpg
+:       :
+│       └── 00063.jpg
+├── test_LF-ROI.txt
+└── training_LF-ROI.txt
+~~~
+
+Execute,
 ~~~
 $ python 3DCNN_SSSD.py
 ~~~
+
+Result files are saved into Challenge2019 directory.
 
 ## Author
 
