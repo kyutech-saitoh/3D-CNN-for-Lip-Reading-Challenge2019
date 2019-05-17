@@ -235,8 +235,8 @@ def main():
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description="3DCNN for SSSD")
-	parser.add_argument("--train", type=str, default="sample_training.txt")
-	parser.add_argument("--test", type=str, default="sample_test.txt")
+	parser.add_argument("--train", type=str, default="training_LF-ROI.txt")
+	parser.add_argument("--test", type=str, default="test_LF-ROI.txt")
 	args = parser.parse_args()
 
 	result_name = "result.txt"
